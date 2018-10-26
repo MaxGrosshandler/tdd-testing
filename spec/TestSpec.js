@@ -1,5 +1,5 @@
 describe("A suite", function() {
-  var fizzbuzz = require('../commands/fizzbuzz.js');
+  var fizzbuzz = require('../lib/fizzbuzz.js');
   it("should be a number", function() {
     expect(fizzbuzz.func("ajj")).toBe(false)
   })
