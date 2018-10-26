@@ -1,4 +1,4 @@
-describe("A suite", function() {
+describe("The FizzBuzz Exercise", function() {
   var fizzbuzz = require('../lib/fizzbuzz.js');
   it("should be a number", function() {
     expect(fizzbuzz.func("ajj")).toBe(false)
@@ -16,4 +16,3 @@ describe("A suite", function() {
     expect(fizzbuzz.func(30)).toEqual("FizzBuzz")
   })
 });
-
