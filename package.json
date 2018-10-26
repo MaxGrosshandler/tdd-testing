@@ -1,0 +1,13 @@
+{
+  "name": "tyranny-local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": { "test": "jasmine" }
+  ,
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.3.0"
+  }
+}
