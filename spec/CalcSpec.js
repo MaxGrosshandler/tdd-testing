@@ -26,5 +26,7 @@ describe("A rudimentary calculator", function(){
   it("should return 6 if given an array of [48, 8] to divide", function(){
     expect(calculator.divide([48, 8])).toEqual(6)
   })
-
+  it("should return 2 if given an array of [1, 1] to add ", function(){
+    expect(calculator.process([1,"+",1])).toEqual(2)
+  })
 })
