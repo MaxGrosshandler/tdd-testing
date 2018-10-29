@@ -29,4 +29,10 @@ describe("A rudimentary calculator", function(){
   it("should return 2 if given an array of [1, 1] to add ", function(){
     expect(calculator.process([1,"+",1])).toEqual(2)
   })
+  it("should return 6 if given an array of [2, +, 8, -, 4] to process", function(){
+    expect(calculator.process([2,"+",8,"-",4])).toEqual(6)
+  })
+  it("should be able to handle multiple operations", function(){ 
+    expect(calculator.process([5,"+",3,"-",2,"*",10,"/",5])).toEqual(12)
+  })
 })
